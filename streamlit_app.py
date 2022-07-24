@@ -5,6 +5,7 @@ st.write("""
 #My first app
 """)
 
-sysBP = st.number_input(label="systolic blood pressure",step=1.,format="%.2f")
+num_1 = st.number_input(label="Enter number#1",step=1.,format="%.2f")
+num_2 = st.number_input(label="Enter number#2",step=1.,format="%.2f")
 
 
